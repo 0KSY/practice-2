@@ -68,6 +68,6 @@ public class GlobalExceptionHandle {
         ErrorResponse response = new ErrorResponse();
         response.setStatusAndMessageFromHttpStatus(HttpStatus.INTERNAL_SERVER_ERROR);
 
-        return new ResponseEntity(response, HttpStatus.INTERNAL_SERVER_ERROR)
+        return new ResponseEntity(response, HttpStatus.INTERNAL_SERVER_ERROR);
     }
 }
